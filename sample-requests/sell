@@ -1,0 +1,6 @@
+POST http://127.0.0.1:3000/products/66e43e5945bc20ba92162c0a/sell HTTP/1.1
+content-type: application/json
+
+{
+    "quantity": 1
+}
