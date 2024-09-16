@@ -1,0 +1,9 @@
+POST http://127.0.0.1:3000/products/ HTTP/1.1
+content-type: application/json
+
+{
+    "stock": 5,
+    "price": 123.123,
+    "name": "toy2",
+    "description": "description"
+}

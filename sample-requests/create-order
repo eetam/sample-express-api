@@ -1,0 +1,10 @@
+POST http://127.0.0.1:3000/orders/ HTTP/1.1
+content-type: application/json
+
+{
+    "customerId": "66e43a4c85f4f8e78d33fdea",
+    "products": [{
+        "productId": "66e43e5945bc20ba92162c0a",
+        "quantity": 2
+    }]
+}
